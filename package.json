@@ -1,0 +1,38 @@
+{
+  "name": "eslint-config-bicitech",
+  "version": "0.1.0",
+  "description": "✨ : eslint config for bicitech FED, based on airbnb.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint *.js",
+    "lintfix": "eslint --fix *.js",
+    "publish": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bici-fed/eslint-config-bici.git"
+  },
+  "keywords": [
+    "eslint-bici"
+  ],
+  "author": "campcc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bici-fed/eslint-config-bici/issues"
+  },
+  "homepage": "https://github.com/bici-fed/eslint-config-bici#readme",
+  "dependencies": {
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-markdown": "^1.0.2",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.8.1"
+  }
+}
